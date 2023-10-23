@@ -193,8 +193,23 @@ body {
   font-family: "Bungee";
 }
 
+.carousel-item .contact {
+  display: flex;
+  gap: 2rem;
+  position: absolute;
+  z-index: 1;
+  color: #fff;
+  bottom: 50%;
+  left: 50%;
+  transform: translate(-50%, -50%);
+  transition: opacity 0.8s cubic-bezier(0, 0.02, 0, 1);
+  font-size: clamp(28px, 2.5vw, 40px);
+  text-shadow: 0 4px 4px rgba(0, 0, 0, 0.1);
+  font-family: "Bungee";
+}
+
 .carousel-item .num {
-  text-shadow: 2px 2px 4px rgba(0, 0, 0, 0.5);
+  text-shadow: 3px 3px 0px rgb(255, 136, 0);
   position: absolute;
   z-index: 1;
   color: #fff;
@@ -205,11 +220,11 @@ body {
 }
 
 .carousel-item .para {
-  text-shadow: 2px 2px 4px rgba(0, 0, 0, 0.5);
+  text-shadow: 3px 3px 0px rgb(255, 136, 0);
   font-family: 'Franklin Gothic Medium', 'Arial Narrow', Arial, sans-serif;
   position: absolute;
   z-index: 1;
-  color: #fff;
+  color: #000000;
   top: 50%;
   left: 20px;
   transform: translateY(-50%);
@@ -218,11 +233,11 @@ body {
 }
 
 .carousel-item .list {
-  text-shadow: 2px 2px 4px rgba(0, 0, 0, 0.5);
+  text-shadow: 3px 3px 0px rgb(255, 136, 0);
   font-family: 'Franklin Gothic Medium', 'Arial Narrow', Arial, sans-serif;
   position: absolute;
   z-index: 1;
-  color: #fff;
+  color: #000000;
   top: 50%;
   left: 20px;
   transform: translateY(-50%);
