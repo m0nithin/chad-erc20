@@ -360,9 +360,13 @@ video {
 }
 
 @media screen and (max-width: 1000px) {
-  /* .description-box {
-    display: none !important;
-  } */
+  .description-box {
+    bottom: 13%;
+  }
+
+  .layout {
+    top: -10%;
+  }
 
   .name {
     left: 30px;
